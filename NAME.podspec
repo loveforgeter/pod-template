@@ -9,7 +9,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/${USER_NAME}/${POD_NAME}'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '${USER_NAME}' => '${USER_EMAIL}' }
-  s.source           = { :git => 'https://github.com/${USER_NAME}/${POD_NAME}.git', :tag => s.version.to_s }
+  s.source           = { :path => '.' }
   s.ios.deployment_target = '9.0'
   s.source_files = '${POD_NAME}/Classes/**/*'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
